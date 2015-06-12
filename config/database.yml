@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: lygneo_development
+  pool: 16
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: lygneo_test
+  pool: 16
+  timeout: 5000
